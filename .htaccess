@@ -1,0 +1,13 @@
+# # Enable Rewrite Engine
+# RewriteEngine On
+
+# # If in subfolder, uncomment and adjust:
+# RewriteBase /propertygateway/
+
+# # Redirect requests without extension to .php if file exists
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# # Prevent direct access to .php files (redirect to extensionless URL)
+# RewriteCond %{THE_REQUEST} \s/([^\s]+)\.php [NC]
+# RewriteRule ^(.+)\.php$ /%1 [R=301,L]
