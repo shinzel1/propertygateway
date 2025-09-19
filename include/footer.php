@@ -33,10 +33,11 @@
                             <div class="footer-widget mb-4">
                                 <div class="footer-logo mb-4"> <a href="#"><img class="logo-bottom" height="70"
                                             src="images/logo/logo.png" alt="image"></a> </div>
-                                <p class="pb-20 text-white">Property Gatewaw, a Unit of Croprerty real estate
-                                    consultancy based in Gurugram. While Property Gateway is a recently established
-                                    ventu-re, it is backed by Mr. Mohinder Papreja - Managing Director, who ca rries
-                                    encomprmanty established recently.</p>
+                                <p class="pb-20 text-white">Property Gateway, a unit of property solution based in
+                                    Gurugram. While Property Gateway is a recently established venture, it is backed by
+                                    Mr. Mohinder Papreja – Managing Director, who carries the credibility and strong
+                                    foundation of Property Solution, an experienced company established 7–8 years ago.
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-8">
@@ -74,9 +75,15 @@
                                             <li class="hover-text-primary"><i
                                                     class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>B-005,Ivory
                                                 Tower South city 1, Gurugram-122001</li>
-                                            <li class="hover-text-primary"> <i
-                                                    class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+917827601216
+                                            <li class="hover-text-primary">
+                                                <span class="d-table text-white">
+                                                    <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+91
+                                                    7827601216</span>
+                                                <span class="d-table text-white"><i
+                                                        class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+91
+                                                    7056805452</span>
                                             </li>
+
                                             <!-- <li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+91 7827601216</li> -->
                                             <li class="hover-text-primary"><i
                                                     class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>Propertygateway007@gmail.com

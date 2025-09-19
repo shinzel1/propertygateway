@@ -7,7 +7,9 @@ if(isset($_REQUEST['login']))
 {
 	$email=$_REQUEST['email'];
 	$pass=$_REQUEST['pass'];
+
 	$pass= sha1($pass);
+	
 	if(!empty($email) && !empty($pass))
 	{
 		$sql = "SELECT * FROM user where uemail='$email' && upass='$pass'";
@@ -27,6 +29,8 @@ if(isset($_REQUEST['login']))
 		$error = "<p class='alert alert-warning'>Please Fill all the fields</p>";
 	}
 }
+// echo sha1("");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
